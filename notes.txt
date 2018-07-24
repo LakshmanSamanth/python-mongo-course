@@ -1,0 +1,6 @@
+# Git Repo
+git clone https://github.com/mikeckennedy/mongodb-quickstart-course.git
+
+# Mongo in Docker
+docker run --name mongo -v mongo-data:/data/db -p 27017:27017 -d mongo
+
